@@ -17,7 +17,15 @@ const Home: React.FC = () => {
       <section id="landing" className={styles.landing}>
         <h1>Hi, I'm Aditya Kakade!!!</h1>
         <p>I'm a current Computer Science student and Software Engineer at Cornell University!</p>
+        <a
+          href="/resume.pdf"
+          download="My_Resume.pdf"
+          className={styles.downloadButton}
+        >
+          Download Resume
+        </a>
       </section>
+
 
       {/* About Me Section */}
       <section id="about" className={styles.section}>
