@@ -1,23 +1,37 @@
 "use client";
 import React from "react";
 import WorkCard from "./WorkCard";
+import { Poppins } from "next/font/google";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "600", "700"], // Add weights as needed
+  style: ["normal", "italic"],  // Add styles as needed
+});
+
 
 const WorkExperiences = () => {
   const workExperiences = [
     {
-      company: "Company A",
-      logo: "/images/no-image.jpg",
-      description: "Worked on X, Y, Z projects with a focus on frontend development.",
+      company: "Cornell Electric Vehicles",
+      logo: "/images/cev-logo.png",
+      description: ` Hajde ta vallzojna vallen e rugoves hajde ta vallzojna Vallen e rugoves. Dej te molla kuqe kufiri Kosoves o dej te molla kuqe
+            kufiri Kosoves. Hajde ta vallzojna vallen me shamia, hajde ta vallzojna vallen me shamia e jona kosova. E jona Shqipnia
+            e jona Kosova e jona Shqipnia hajde ta vallzojna vallen me shamia sa bukur vallzon ne Kosove rinia.`,
     },
     {
-      company: "Company B",
-      logo: "/images/no-image.jpg",
-      description: "Led a team to develop a scalable backend for e-commerce.",
+      company: "MITRE",
+      logo: "/images/mitre-logo.jpg",
+      description: ` Hajde ta vallzojna vallen e rugoves hajde ta vallzojna Vallen e rugoves. Dej te molla kuqe kufiri Kosoves o dej te molla kuqe
+            kufiri Kosoves. Hajde ta vallzojna vallen me shamia, hajde ta vallzojna vallen me shamia e jona kosova. E jona Shqipnia
+            e jona Kosova e jona Shqipnia hajde ta vallzojna vallen me shamia sa bukur vallzon ne Kosove rinia.`,
     },
     {
-      company: "Company C",
-      logo: "/images/no-image.jpg",
-      description: "Designed and deployed cloud solutions to improve reliability.",
+      company: "MITRE",
+      logo: "/images/mitre-logo.jpg",
+      description: ` Hajde ta vallzojna vallen e rugoves hajde ta vallzojna Vallen e rugoves. Dej te molla kuqe kufiri Kosoves o dej te molla kuqe
+            kufiri Kosoves. Hajde ta vallzojna vallen me shamia, hajde ta vallzojna vallen me shamia e jona kosova. E jona Shqipnia
+            e jona Kosova e jona Shqipnia hajde ta vallzojna vallen me shamia sa bukur vallzon ne Kosove rinia.`,
     },
   ];
 
@@ -28,7 +42,7 @@ const WorkExperiences = () => {
 
   return (
     <>
-      <h2 className="text-center text-4xl font-bold text-white mt-8 mb-8 md:mb-12">
+      <h2 className={`text-center text-5xl font-bold text-[#52796f] mt-8 mb-8 md:mb-12 ${poppins.className}`}>
         Work Experience
       </h2>
       <div className="mt-20 flex items-center justify-center py-8">

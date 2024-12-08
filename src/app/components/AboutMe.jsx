@@ -3,6 +3,13 @@
 import React, { useState, useTransition } from 'react';
 import Image from 'next/image';
 import AboutMeButton from './AboutMeButton';
+import { Poppins } from "next/font/google";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "600", "700"], // Add weights as needed
+  style: ["normal", "italic"],  // Add styles as needed
+});
 
 const AM_CONT = [
   {
@@ -43,18 +50,18 @@ const AboutMe = () => {
   }
   return (
     <section className="text-white">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+      <div className={`md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 ${poppins.className}`}>
         <Image
           src="/images/about-me-cornell.jpg"
           width={500}
           height={500}
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+          <h2 className="text-5xl font-bold text-[#52796f] mb-4">About Me</h2>
           <p className="text-base md:text-lg">
-            Hajde ta vallzojna Vallen e Rugoves Hajde ta vallzojna Vallen e Rugoves Dej te molla kuqe Kufiri Kosoves O dej te molla kuqe
-            Kufiri Kosoves Hajde ta vallzojna Vallen me shamia Hajde ta vallzojna Vallen me shamia E jona Kosova E jona Shqipnia
-            E jona Kosova E jona Shqipnia Hajde ta vallzojna Vallen me shamia Sa bukur vallzon Ne Kosove rinia
+            Hajde ta vallzojna vallen e rugoves hajde ta vallzojna Vallen e rugoves. Dej te molla kuqe kufiri Kosoves o dej te molla kuqe
+            kufiri Kosoves. Hajde ta vallzojna vallen me shamia, hajde ta vallzojna vallen me shamia e jona kosova. E jona Shqipnia
+            e jona Kosova e jona Shqipnia hajde ta vallzojna vallen me shamia sa bukur vallzon ne Kosove rinia.
           </p>
           <div className="flex flex-row mt-8">
             <AboutMeButton selectTab={() => handleTabChange("education")} active={tab === "education"}>

@@ -11,7 +11,16 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
-    },
+      backgroundImage: {
+        'custom-pattern': "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' ... [rest of your SVG data]\")",
+      },
+      backgroundColor: {
+        'custom-bg': '#e9edc9',
+      },
   },
-  plugins: [],
-};
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/aspect-ratio'),
+  ],
+}};
