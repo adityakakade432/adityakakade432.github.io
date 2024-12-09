@@ -10,6 +10,7 @@ const poppins = Poppins({
 
 //https://coolors.co/palette/cad2c5-84a98c-52796f-354f52-2f3e46
 //https://coolors.co/palette/d8e2dc-ffe5d9-ffcad4-f4acb7-9d8189
+//https://coolors.co/palette/ccd5ae-e9edc9-fefae0-faedcd-d4a373
 
 const IntroSection = () => {
   return (
