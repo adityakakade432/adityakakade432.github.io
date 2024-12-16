@@ -10,12 +10,12 @@ export default function Home() {
   return (
     <main className='flex min-h-screen flex-col bg-[#d5dfb7]'>
       <NavBar />
-      <div className="container">
+      <div className="container" id = "landing">
         <IntroSection />
       </div>
       <div className="container mt-24 mx-auto py-4 px-12">
-        <AboutMe />
-        <WorkExperiences />
+        <AboutMe></AboutMe>
+        <WorkExperiences></WorkExperiences>
         <Projects />
         <Contact />
       </div>

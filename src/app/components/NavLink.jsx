@@ -11,7 +11,7 @@ const NavLink = ({ href, title }) => {
   return (
     <Link
       href={href}
-      className={`block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-white ${poppins.className}`}>
+      className={`py-2 pl-3 pr-4 bg-gradient-to-r from-[#d5bdaf] via-[#e3d5ca] to-[#f5ebe0] inline-block text-transparent bg-clip-text sm:text-xl rounded md:p-0 hover:text-white ${poppins.className}`}>
       {title}
     </Link>
   )

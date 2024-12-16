@@ -41,7 +41,7 @@ const WorkExperiences = () => {
   };
 
   return (
-    <>
+    <section id = "work">
       <h2 className={`text-center text-5xl font-bold text-[#52796f] mt-8 mb-8 md:mb-12 ${poppins.className}`}>
         Work Experience
       </h2>
@@ -58,7 +58,7 @@ const WorkExperiences = () => {
           ))}
         </div>
       </div>
-    </>
+    </section>
   );
 };
 

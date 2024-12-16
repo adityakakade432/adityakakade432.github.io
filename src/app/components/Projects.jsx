@@ -13,11 +13,11 @@ const poppins = Poppins({
 function Projects() {
   return (
     <>
-      <h2 className={`text-center text-5xl font-bold text-[#52796f] mt-24 mb-8 md:mb-12 ${poppins.className}`}>
+      <h2 className={`text-center text-5xl font-bold text-[#52796f] mt-24 mb-8 md:mb-12 ${poppins.className}`} id = "projects">
         Projects
       </h2>
       <div className="grid md:grid-cols-3 gap-8 md:gap-12">
-        {projectsData.map((project) => <ProjectCard key={project.id} title={project.title} description={project.description} id={project.id} imgUrl={project.image} />)}
+        {projectsData.map((project) => <ProjectCard key={project.id} title={project.title} description={project.description} id={project.id} imgUrl={project.image} link={project.link} />)}
       </div>
     </>
   )

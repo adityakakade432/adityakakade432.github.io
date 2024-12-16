@@ -20,7 +20,7 @@ const IntroSection = () => {
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-bold">
             Hello, I&#39;m
           </h1>
-          <h1 className = "text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-bold">Aditya Kakade!</h1>
+          <h1 className = "bg-gradient-to-r from-[#e76f51] via-[#f4a261] to-[#e9c46a] inline-block text-transparent bg-clip-text mb-4 text-4xl sm:text-5xl lg:text-6xl font-bold">Aditya Kakade!</h1>
           <p className="text-[#ddefb6] text-base sm:text-lg lg:text-xl mb-6">
             I am a student currently pursuing both my Bachelor of Science <br />
             and Master of Engineering in Computer Science at Cornell University!
