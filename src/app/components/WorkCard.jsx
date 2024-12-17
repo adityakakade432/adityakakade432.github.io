@@ -21,15 +21,9 @@ const Card = ({ company, logo, description, onMoreInfo }) => {
           />
           <h2 className="font-bold text-2xl text-[#bc6c25]">{company}</h2>
         </div>
-        <p className="text-[#dda15e] text-base mt-6">{description}</p>
+        <p className="text-[#dda15e] text-base mt-6 whitespace-pre-line" dangerouslySetInnerHTML={{ __html: description }}></p>
       </div>
       <div className="px-6 pt-4 pb-2">
-        <button
-          onClick={onMoreInfo}
-          className="bg-gradient-to-br from-[#344e41] via-[#a3b18a] to-[#ccd5ae] text-white font-bold py-2 px-4 rounded mb-4"
-        >
-          More Info
-        </button>
       </div>
     </div>
   );

@@ -15,7 +15,7 @@ function ProjectCard({ id, imgUrl, title, description, link }) {
   return (
     <div>
       <div
-        style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}
+        style={{ background: `url(${imgUrl})`, backgroundSize: "cover", backgroundPosition: "center" }}
         className="h-52 md:h-72 rounded-t-xl relative group"
       >
         <div
