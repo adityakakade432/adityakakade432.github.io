@@ -81,7 +81,7 @@ const AboutMe = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-5xl font-bold text-[#52796f] mb-4">About Me</h2>
           <p className="text-base md:text-md font-semibold">
-            Hello! I am a current Senior at Cornell University's College of Engineering, about to graduate with my Bachelor of Science in Computer Science with a minor in Data Science. As a software
+            Hello! I am a current Senior at Cornell University&apos;s College of Engineering, about to graduate with my Bachelor of Science in Computer Science with a minor in Data Science. As a software
             engineer, my primary area of expertise is in Full Stack Development -- I have experience building full stack applications for client needs that range from electric vehicle dashboards to
             artificial intelligence cyber threat tracking. However, I am also extremely interested in using ML and Data Science to obtain insight into customer bases and communities. In my spare time
             I love reading novels by John Grisham, listening to country music, hiking, and collecting vinyl records!
