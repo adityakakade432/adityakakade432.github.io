@@ -26,7 +26,7 @@ export default function ProjectInfoPage() {
           This project is in its final stages of development!
         </h1>
         <p className="text-lg sm:text-xl lg:text-2xl text-gray-800 mb-8">
-          The project page isn't finished yet. View the current progress on GitHub!
+          The project page is not finished yet. View the current progress on GitHub!
         </p>
         <a
           href={projectData.githubLink}
