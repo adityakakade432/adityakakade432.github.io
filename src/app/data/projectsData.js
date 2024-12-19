@@ -4,14 +4,14 @@ const projectsData = [
       title: "ByteBites",
       description: "GenAI powered application transforming ingredient images into recipes.",
       image: "/images/bytebites.png",
-      link: "/project-one"
+      link: "/project-two"
     },
     {
       id: 2,
       title: "Electric Vehicle Dashboard",
       description: "Android application enabling live view of vehicle sensor data.",
       image: "/images/cevapp.png",
-      link: "/project-two"
+      link: "/project-one"
     },
     {
       id: 3,

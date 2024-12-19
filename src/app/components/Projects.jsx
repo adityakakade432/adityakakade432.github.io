@@ -1,8 +1,8 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
 import ProjectCard from "./ProjectCard";
-import { Poppins } from "next/font/google";
 import projectsData from "../data/projectsData";
+import { Poppins } from "next/font/google";
 
 const poppins = Poppins({
   subsets: ["latin"],

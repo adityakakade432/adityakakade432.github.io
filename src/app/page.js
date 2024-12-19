@@ -1,4 +1,3 @@
-import Image from "next/image";
 import IntroSection from "./components/IntroSection";
 import NavBar from "./components/NavBar";
 import AboutMe from "./components/AboutMe";
@@ -8,14 +7,16 @@ import Contact from "./components/Contact";
 
 export default function Home() {
   return (
-    <main className='flex min-h-screen flex-col bg-[#d5dfb7]'>
+    <main className="min-h-screen bg-[#d5dfb7] overflow-x-hidden">
       <NavBar />
-      <div className="container" id = "landing">
+      {/* Remove the container class here */}
+      <div id="landing">
         <IntroSection />
       </div>
-      <div className="container mt-24 mx-auto py-4 px-12">
-        <AboutMe></AboutMe>
-        <WorkExperiences></WorkExperiences>
+      {/* Adjust container settings for consistent alignment */}
+      <div className="container mx-auto mt-24 py-4 px-12">
+        <AboutMe />
+        <WorkExperiences />
         <Projects />
         <Contact />
       </div>

@@ -91,10 +91,6 @@ const AboutMe = () => {
               {" "}
               Education
             </AboutMeButton>
-            <AboutMeButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>
-              {" "}
-              Skills
-            </AboutMeButton>
           </div>
           <div>
             <div className="mt-8">{AM_CONT.find((t) => t.id === tab).content}</div>
