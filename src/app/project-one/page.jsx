@@ -16,7 +16,7 @@ export default function ProjectInfoPage() {
     ],
     title: "Electric Vehicle Dashboard",
     description:
-      "Developed an Android application that provided real-time sensor data from an electric vehicle to the driver during on-track performance. The app interfaced with the car's data acquisition boards via TCP to receive live telemetry, while simultaneously streaming data to a database and a historical dashboard through a custom API. This project involved close collaboration with electrical engineers to ensure seamless integration and usability, including designing software workflows that supported their understanding of and interaction with the system. The solution enabled enhanced performance monitoring and post-race analysis, empowering both drivers and engineers with actionable insights.",
+      "Developed an Android application that provided real-time sensor data from an electric vehicle to the driver during on-track performance. The app interfaced with the car&apos;s data acquisition boards via TCP to receive live telemetry, while simultaneously streaming data to a database and a historical dashboard through a custom API. This project involved close collaboration with electrical engineers to ensure seamless integration and usability, including designing software workflows that supported their understanding of and interaction with the system. The solution enabled enhanced performance monitoring and post-race analysis, empowering both drivers and engineers with actionable insights.",
     skills:
       ['React Native', 'Python', 'REST APIs', 'TCP', 'HTTPS', 'Node.js'],
     githublink: "https://github.com/adityakakade432/MobileDash2023"
