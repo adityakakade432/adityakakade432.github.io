@@ -25,9 +25,13 @@ const IntroSection = () => {
               and Master of Engineering in Computer Science at Cornell University!
             </p>
             <div>
-              <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-[#faedcd] via-[#e9edc9] to-[#84a98c] text-[#52796f] hover:brightness-110 transition duration-200">
-                Download Resume
-              </button>
+            <a 
+              href="/Aditya_P_Kakade_Res_24_25.pdf" 
+              download 
+              className="inline-block px-6 py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-[#faedcd] via-[#e9edc9] to-[#84a98c] text-[#52796f] hover:brightness-110 transition duration-200 text-center"
+            >
+              Download Resume
+            </a>
             </div>
           </div>
           <div className="col-span-5 flex justify-center">
