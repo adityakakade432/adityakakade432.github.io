@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Study Start Page</title>
+    <meta charset="UTF-8">
+</head>
+<body style="font-family:sans-serif; text-align:center; padding-top:60px; max-width:650px; margin:auto;">
+
+    <h2>Welcome to the Study</h2>
+
+    <p style="font-size:16px; margin-top:25px;">
+        Thank you for participating in this study! 
+        
+        You will be presented with 5 questions,
+        which involve identifying what object or animal an image is showing.
+
+        After completing the questions, you will be presented with the Prolific Completion Code.
+    </p>
+
+    <p style="font-size:16px; margin-top:20px;">
+        When you're ready, click the button below to begin.
+    </p>
+
+    <button id="startBtn" 
+        style="padding:12px 28px; font-size:18px; cursor:pointer; margin-top:30px;">
+        Start Study
+    </button>
+
+    <script>
+        document.getElementById("startBtn").onclick = function () {
+            // Replace with your Google Forms links:
+            const positive = "https://docs.google.com/forms/d/positive";
+            const negative = "https://docs.google.com/forms/d/negative";
+            const neutral  = "https://docs.google.com/forms/d/neutral";
+
+            const forms = [positive, negative, neutral];
+            const chosen = forms[Math.floor(Math.random() * forms.length)];
+            window.location.href = chosen;
+        };
+    </script>
+
+</body>
+</html>
